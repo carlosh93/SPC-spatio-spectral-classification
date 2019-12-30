@@ -5,6 +5,12 @@ clc
 %% Add to PATH
 addpath('./Data');
 
+%% Create Results folder
+if ~exist('Results', 'dir')
+    mkdir('Results');
+    mkdir('Results/Reconstructions');
+end
+
 %% Main Parameters
 database = 2; % Select Database
 Nseg = 512; % Number of Superpixels
