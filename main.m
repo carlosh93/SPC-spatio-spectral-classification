@@ -1,7 +1,7 @@
 clear all
 close all
 clc
-
+% Copyright Carlos Hinojosa carlos.hinojosa@saber.uis.edu.co
 %% Add to PATH
 addpath('../../RGB Superpixels Fusion/Data Classification/');
 
